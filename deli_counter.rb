@@ -5,7 +5,8 @@
 # return name, place_in_line
 # end
 def take_a_number(katz_deli)
-
+  katz_deli.push(ticket)
+  ticket = 1
   "Welcome you're ticket number is #{ticket}"
 end
 
