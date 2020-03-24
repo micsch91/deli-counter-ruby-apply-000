@@ -5,6 +5,8 @@
 # return name, place_in_line
 # end
 def take_a_number(katz_deli)
+
+  "Welcome you're ticket number is #{ticket}"
 end
 
 def line(array)
