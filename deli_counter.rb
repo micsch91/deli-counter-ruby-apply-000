@@ -6,7 +6,7 @@
 # end
 def take_a_number(katz_deli)
 end
-  
+
 def line(array)
   new_array = []
   if array.empty? == false
