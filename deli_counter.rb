@@ -1,10 +1,12 @@
-def take_a_number(katz_deli,name)
-katz_deli.push(name)
-place_in_line = katz_deli.index(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
-return name, place_in_line
+# def take_a_number(katz_deli,name)
+# katz_deli.push(name)
+# place_in_line = katz_deli.index(name)
+#   puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
+# return name, place_in_line
+# end
+def take_a_number(katz_deli)
 end
-
+  
 def line(array)
   new_array = []
   if array.empty? == false
